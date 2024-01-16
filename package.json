@@ -1,0 +1,17 @@
+{
+  "name": "scure-bip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@scure/bip39": "^1.2.2",
+    "axios": "^1.6.5",
+    "bitcoinjs-lib": "^6.1.5"
+  }
+}
