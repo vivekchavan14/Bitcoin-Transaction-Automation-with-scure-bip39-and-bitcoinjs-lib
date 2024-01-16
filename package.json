@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,10 @@
   "dependencies": {
     "@scure/bip39": "^1.2.2",
     "axios": "^1.6.5",
-    "bitcoinjs-lib": "^6.1.5"
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "fs": "^0.0.1-security",
+    "tiny-secp256k1": "^2.2.3"
   }
 }
